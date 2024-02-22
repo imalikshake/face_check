@@ -16,8 +16,8 @@ sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 
 # REPO
-git clone https://github.com/imalikshake/face_check.git
-cd face_check
+# git clone https://github.com/imalikshake/face_check.git
+# cd face_check
 wget -q -O detector.tflite -q https://storage.googleapis.com/mediapipe-models/face_detector/blaze_face_short_range/float16/1/blaze_face_short_range.tflite
 docker build -t face-check-app .
 docker run -p 5000:5000 face-check-app
