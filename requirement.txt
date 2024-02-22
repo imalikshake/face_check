@@ -1,0 +1,6 @@
+flask
+requests
+mediapipe
+opencv-python
+tensorflow
+flask
